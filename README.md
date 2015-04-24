@@ -42,7 +42,9 @@ If all specs pass, start app at (localhost:4567), with
 ## The method
 ### `String#word_freq`
 
-<!-- When the user submits a word and the same word, the application will tell the user if the word is in the sentence.
+<!-- BELOW ARE THE PLAIN ENGLISH SPECS WRITTEN BEFORE THE RUBY SPECS WERE WRITTEN.
+
+When the user submits a word and the same word, the application will tell the user if the word is in the sentence.
 
 When the user submits a word and a different word, the application will tell the user if the word is in the sentence.
 
@@ -50,13 +52,13 @@ When the user submits a word and the same word that is capitalized, the applicat
 
 When the user submits a word and the same word, the application will tell the user the word occurs 1 time in the sentence.
 
-When the user submits a word and a different word, the application will tell the user the word does not occur in the sentence. -->
+When the user submits a word and a different word, the application will tell the user the word does not occur in the sentence.
 
 When the user submits a word and a sentence containing the word, the application will tell the user the word occurs once in the sentence.
 
 When the user submits a word and a sentence containing the word multiple times, the application will tell the user how many times the word occurs in the sentence.
 
-When the user submits a word and a sentence that does not contain the word, the application will tell the user the sentence does not contain the word.
+When the user submits a word and a sentence that does not contain the word, the application will tell the user the sentence does not contain the word. -->
 
 The method is defined for the String class in ruby. As such the method is called on a string, which is the word to be searched for; and also takes a string as an argument, through which the method will search for the word provided. The method will return a fixnum of the number of times the word was found in the the string provided. If the word was not found, the method will return `0`.
 
