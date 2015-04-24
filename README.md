@@ -3,7 +3,9 @@
 (heroku)
 
 By Ian MacDonald (https://github.com/matchbookmac)
+
 @ Epicodus Programming School, Portland, OR
+
 MIT License. Copyright 2015 Ian C. MacDonald.
 
 ##Think you use a word too much? Find out!
