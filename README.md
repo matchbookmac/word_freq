@@ -2,7 +2,7 @@
 
 <a href="http://wordfrequencybyian.herokuapp.com/" target="#">Link to Heroku app</a>
 
-By Ian MacDonald (https://github.com/matchbookmac)
+By Ian MacDonald (<a href="https://github.com/matchbookmac" target="#">GitHub</a>)
 
 @ Epicodus Programming School, Portland, OR
 
