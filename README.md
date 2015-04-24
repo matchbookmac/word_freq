@@ -74,7 +74,7 @@ The method will ignore punctuation in contractions and possessive, as well as ca
 ```ruby
 > 'Ian'.word_freq('Come over to Ian\'s house for tea.')
 > 1
-> 'won'.word_freq('Won\'t you come over to Ian\'s house for tea.')
+> 'won'.word_freq('Won\'t you come over to Ian\'s house for tea?')
 > 1
 ```
 
