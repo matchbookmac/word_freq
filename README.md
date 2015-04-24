@@ -42,11 +42,11 @@ If all specs pass, start app at (localhost:4567), with
 ## The method
 ### `String#word_freq`
 
-When the user submits a word and the same word, the application will tell the user if the word is in the sentence.
+<!-- When the user submits a word and the same word, the application will tell the user if the word is in the sentence.
 
 When the user submits a word and a different word, the application will tell the user if the word is in the sentence.
 
-When the user submits a word and the same word that is capitalized, the application will tell the user if the word is in the sentence.
+When the user submits a word and the same word that is capitalized, the application will tell the user if the word is in the sentence. -->
 
 When the user submits a word and the same word, the application will tell the user the word occurs 1 time in the sentence.
 
