@@ -1,6 +1,6 @@
 #Word Frequency
 
-(heroku)
+(http://wordfrequencybyian.herokuapp.com/)
 
 By Ian MacDonald (https://github.com/matchbookmac)
 
