@@ -6,7 +6,7 @@ By Ian MacDonald (<a href="https://github.com/matchbookmac" target="#">GitHub</a
 
 @ Epicodus Programming School, Portland, OR
 
-MIT License. Copyright 2015 Ian C. MacDonald.
+MIT License. Copyright (c) 2015 Ian C. MacDonald.
 
 ##Think you use a word too much? Find out!
 
