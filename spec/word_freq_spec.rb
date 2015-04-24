@@ -14,7 +14,7 @@ describe('String#word_freq') do
   it('will return 1 if the word occurs once anywhere in the sentence') do
     expect('hello'.word_freq('World hello I am Ian')).to(eq(1))
   end
-  # it('will return the number of occurences of the word the method is called on within the sentence') do
-  #   expect('path'.word_freq('Little red riding hood walked down the path. On that path she met a ...')).to(eq(2))
-  # end
+  it('will return the number of occurences of the word the method is called on within the sentence') do
+    expect('path'.word_freq('Little red riding hood walked down the path. On that path she met a ...')).to(eq(2))
+  end
 end
