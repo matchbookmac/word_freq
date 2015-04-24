@@ -34,7 +34,7 @@ Run specs in `word_freq` with
 > rspec
 ```
 
-If all specs pass, start app at (localhost:4567), with
+If all specs pass, start app at `localhost:4567`, with
 ```console
 > ruby app.rb
 ```
