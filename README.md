@@ -87,5 +87,5 @@ It will also, however, find a contracted word within a sentence.
 It will not, however, find a word that is within another word.
 ```ruby
 > 'won'.word_freq('Your wanton ways do not deserve any wontons.')
->
+> 0
 ```
