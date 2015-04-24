@@ -83,3 +83,9 @@ It will also, however, find a contracted word within a sentence.
 > 'won\'t'.word_freq('Won\'t you ask the camel to stop spitting? He is getting spit on my wontons.')
 > 1
 ```
+
+It will not, however, find a word that is within another word.
+```ruby
+> 'won'.word_freq('Your wanton ways do not deserve any wontons.')
+>
+```
