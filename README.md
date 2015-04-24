@@ -77,3 +77,9 @@ The method will ignore punctuation in contractions and possessive, as well as ca
 > 'won'.word_freq('Won\'t you come over to Ian\'s house for tea.')
 > 1
 ```
+
+It will also, however, find a contracted word within a sentence.
+```ruby
+> 'won\'t'.word_freq('The camel won\'t stop spitting. Won\'t you ask him to stop? Because of his spitting, the dodgers won.')
+> 2
+```
