@@ -6,5 +6,6 @@ class String
     if(word.eql?(downcase_sentence))
       word_count += 1
     end
+    word_count
   end
 end
