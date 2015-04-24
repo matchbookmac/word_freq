@@ -1,6 +1,6 @@
 #Word Frequency
 
-Link to Heroku app: http://wordfrequencybyian.herokuapp.com/
+<a href="http://wordfrequencybyian.herokuapp.com/" target="#">Link to Heroku app</a>
 
 By Ian MacDonald (https://github.com/matchbookmac)
 
