@@ -14,6 +14,8 @@ Word Frequency is a web application that lets a user submit a word, and some cor
 
 ## Installation
 
+This app was written in `ruby '2.0.0'`.
+
 Clone this repo with
 ```console
 > git clone https://github.com/matchbookmac/word_freq.git
