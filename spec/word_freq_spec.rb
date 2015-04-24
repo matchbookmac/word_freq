@@ -17,7 +17,7 @@ describe('String#word_freq') do
   it('will return the number of occurences of the word the method is called on within a sentence without punctuation') do
     expect('path'.word_freq('Little red riding hood walked down the path and on that path she met me')).to(eq(2))
   end
-  it('will return the number of occurences of the word the method is called on  a sentence containing punctuation') do
+  it('will return the number of occurences of the word the method is called on in a sentence containing punctuation') do
     expect('path'.word_freq('Little red riding hood walked down the path, on that path she met a ...')).to(eq(2))
   end
   it('will return 0 occurences of the word if the method is called on a sentence containing punctuation and not the word') do
