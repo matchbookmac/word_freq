@@ -21,6 +21,6 @@ describe('String#word_freq') do
     expect('path'.word_freq('Little red riding hood walked down the path, on that path she met a ...')).to(eq(2))
   end
   it('will return 0 occurences of the word if the method is called on a sentence containing punctuation and not the word') do
-    expect('path'.word_freq('path'.word_freq('There she was just walkin\' down the street. Singin\' \'Do wah diddy, diddy, dum diddy do'))).to(eq(0))
+    expect('path'.word_freq('There she was just walkin\' down the street. Singin\' \'Do wah diddy, diddy, dum diddy do')).to(eq(0))
   end
 end
