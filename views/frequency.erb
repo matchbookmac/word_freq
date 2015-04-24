@@ -1,2 +1,2 @@
-<p class="lead">Your word, "<strong><%= @word %></strong>", was found <strong><%= @frequency %></strong> times in the sentence:</p>
+<p class="lead">Your word, "<strong><%= @word %></strong>", was found <strong><%= @frequency %></strong> time<% if(@frequency.>(1)) %>s<% end %> in the sentence:</p>
 <p class="lead">"<%= @sentence %>"</p>
