@@ -65,7 +65,7 @@ The method is defined for the String class in ruby. As such, the method is calle
 ```ruby
 > 'path'.word_freq('Little red riding hood walked down the path. On that path she met a ...')
 > 2
-> 'path'.word_freq('There she was just walkin\' down the street. Singin\' \'Do wah diddy, diddy, dum diddy do')
+> 'path'.word_freq('There she was just walkin\' down the street.')
 > 0
 ```
 
@@ -80,6 +80,6 @@ The method will ignore punctuation in contractions and possessive, as well as ca
 
 It will also, however, find a contracted word within a sentence.
 ```ruby
-> 'won\'t'.word_freq('The camel won\'t stop spitting. Won\'t you ask him to stop? Because of his spitting, the dodgers won.')
-> 2
+> 'won\'t'.word_freq('The camel won\'t stop spitting. Because of his spitting, the dodgers won.')
+> 1
 ```
