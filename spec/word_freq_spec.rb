@@ -23,10 +23,10 @@ describe('String#word_freq') do
   it('will return 0 occurences of the word if the method is called on a sentence containing punctuation and not the word') do
     expect('path'.word_freq('There she was just walkin\' down the street. Singin\' \'Do wah diddy, diddy, dum diddy do')).to(eq(0))
   end
-  it('will return the number of occurences of a contracted word the method is called on in a sentence containing punctuation') do
-    expect('won\'t'.word_freq('The camel won\'t stop spitting. Won\'t you ask him to stop? Because of his spitting, the dodgers won.')).to(eq(2))
-  end
   it('will return the number of occurences of a word the method is called on in a sentence containing punctuation, even if it is contained in a contraction') do
     expect('won'.word_freq('The camel won\'t stop spitting. Won\'t you ask him to stop? Because of his spitting, the dodgers won.')).to(eq(3))
+  end
+  it('will return the number of occurences of a contracted word the method is called on in a sentence containing punctuation') do
+    expect('won\'t'.word_freq('The camel won\'t stop spitting. Won\'t you ask him to stop? Because of his spitting, the dodgers won.')).to(eq(2))
   end
 end
